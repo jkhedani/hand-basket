@@ -1,0 +1,353 @@
+/**
+ * Mixins
+ */
+/**
+ * Popover Styles a.k.a. Shopping Cart
+ */
+html body .popover.bottom {
+  min-width: 100%;
+  left: auto !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+html body .shopping-cart-preview-legend {
+  display: none;
+}
+html body .shopping-cart-product .product-subtotal {
+  display: none !important;
+}
+html body .popover.bottom,
+html body .modal {
+  margin-top: 0;
+  background: #FFF;
+  border: none;
+  z-index: 9999;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+html body .popover.bottom .arrow,
+html body .modal .arrow {
+  display: none;
+}
+html body .popover.bottom .popover-content,
+html body .modal .popover-content,
+html body .popover.bottom .checkoutReview,
+html body .modal .checkoutReview {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 19px 25px 15px 25px;
+}
+html body .popover.bottom .popover-content h1,
+html body .modal .popover-content h1,
+html body .popover.bottom .checkoutReview h1,
+html body .modal .checkoutReview h1 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+html body .popover.bottom .popover-content .shopping-cart-preview-legend .product-title,
+html body .modal .popover-content .shopping-cart-preview-legend .product-title,
+html body .popover.bottom .checkoutReview .shopping-cart-preview-legend .product-title,
+html body .modal .checkoutReview .shopping-cart-preview-legend .product-title {
+  margin-left: 114px;
+}
+html body .popover.bottom .popover-content .shopping-cart-preview-legend .product-price,
+html body .modal .popover-content .shopping-cart-preview-legend .product-price,
+html body .popover.bottom .checkoutReview .shopping-cart-preview-legend .product-price,
+html body .modal .checkoutReview .shopping-cart-preview-legend .product-price {
+  margin-left: 30px;
+}
+html body .popover.bottom .popover-content .shopping-cart-preview-legend .product-qty,
+html body .modal .popover-content .shopping-cart-preview-legend .product-qty,
+html body .popover.bottom .checkoutReview .shopping-cart-preview-legend .product-qty,
+html body .modal .checkoutReview .shopping-cart-preview-legend .product-qty {
+  margin-left: 30px;
+}
+html body .popover.bottom .popover-content .shopping-cart-preview-legend .product-subtotal,
+html body .modal .popover-content .shopping-cart-preview-legend .product-subtotal,
+html body .popover.bottom .checkoutReview .shopping-cart-preview-legend .product-subtotal,
+html body .modal .checkoutReview .shopping-cart-preview-legend .product-subtotal {
+  margin-left: 30px;
+}
+html body .popover.bottom .popover-content .shopping-cart-preview-legend .product-remove,
+html body .modal .popover-content .shopping-cart-preview-legend .product-remove,
+html body .popover.bottom .checkoutReview .shopping-cart-preview-legend .product-remove,
+html body .modal .checkoutReview .shopping-cart-preview-legend .product-remove {
+  margin-left: 25px;
+}
+html body .popover.bottom .popover-content .shopping-cart-product,
+html body .modal .popover-content .shopping-cart-product,
+html body .popover.bottom .checkoutReview .shopping-cart-product,
+html body .modal .checkoutReview .shopping-cart-product {
+  font-size: 13px;
+  color: #666;
+  margin: 15px 0 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F6F6F6;
+}
+html body .popover.bottom .popover-content .shopping-cart-product:before,
+html body .modal .popover-content .shopping-cart-product:before,
+html body .popover.bottom .checkoutReview .shopping-cart-product:before,
+html body .modal .checkoutReview .shopping-cart-product:before,
+html body .popover.bottom .popover-content .shopping-cart-product:after,
+html body .modal .popover-content .shopping-cart-product:after,
+html body .popover.bottom .checkoutReview .shopping-cart-product:after,
+html body .modal .checkoutReview .shopping-cart-product:after {
+  content: " ";
+  display: table;
+}
+html body .popover.bottom .popover-content .shopping-cart-product:after,
+html body .modal .popover-content .shopping-cart-product:after,
+html body .popover.bottom .checkoutReview .shopping-cart-product:after,
+html body .modal .checkoutReview .shopping-cart-product:after {
+  clear: both;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-preview,
+html body .modal .popover-content .shopping-cart-product .product-preview,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-preview,
+html body .modal .checkoutReview .shopping-cart-product .product-preview {
+  width: 105px;
+  display: block;
+  float: left;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-description,
+html body .modal .popover-content .shopping-cart-product .product-description,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-description,
+html body .modal .checkoutReview .shopping-cart-product .product-description {
+  width: 112px;
+  float: left;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-description .product-title,
+html body .modal .popover-content .shopping-cart-product .product-description .product-title,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-description .product-title,
+html body .modal .checkoutReview .shopping-cart-product .product-description .product-title {
+  margin-left: 10px;
+  display: block;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-description .product-color,
+html body .modal .popover-content .shopping-cart-product .product-description .product-color,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-description .product-color,
+html body .modal .checkoutReview .shopping-cart-product .product-description .product-color {
+  margin-left: 10px;
+  display: block;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-price,
+html body .modal .popover-content .shopping-cart-product .product-price,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-price,
+html body .modal .checkoutReview .shopping-cart-product .product-price {
+  margin-left: 22px;
+  display: block;
+  float: left;
+  width: 59px;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-qty,
+html body .modal .popover-content .shopping-cart-product .product-qty,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-qty,
+html body .modal .checkoutReview .shopping-cart-product .product-qty {
+  margin-left: 32px;
+  display: block;
+  float: left;
+  width: 20px;
+  text-align: center;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-subtotal,
+html body .modal .popover-content .shopping-cart-product .product-subtotal,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-subtotal,
+html body .modal .checkoutReview .shopping-cart-product .product-subtotal {
+  margin-left: 32px;
+  display: block;
+  float: left;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-remove,
+html body .modal .popover-content .shopping-cart-product .product-remove,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-remove,
+html body .modal .checkoutReview .shopping-cart-product .product-remove {
+  margin-left: 40px;
+  display: block;
+  float: left;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-meta-title,
+html body .modal .popover-content .shopping-cart-product .product-meta-title,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-meta-title,
+html body .modal .checkoutReview .shopping-cart-product .product-meta-title {
+  display: none;
+}
+html body .popover.bottom .popover-content .shopping-cart-product .product-color,
+html body .modal .popover-content .shopping-cart-product .product-color,
+html body .popover.bottom .checkoutReview .shopping-cart-product .product-color,
+html body .modal .checkoutReview .shopping-cart-product .product-color {
+  text-transform: capitalize;
+}
+html body .popover.bottom .popover-content .shopping-cart-product a.btn.remove,
+html body .modal .popover-content .shopping-cart-product a.btn.remove,
+html body .popover.bottom .checkoutReview .shopping-cart-product a.btn.remove,
+html body .modal .checkoutReview .shopping-cart-product a.btn.remove {
+  background: none;
+  border: none;
+  color: #666;
+  padding: 0;
+  text-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 10px;
+  margin: -5px 0 0 53px;
+  opacity: 0.7;
+}
+html body .popover.bottom .popover-content .shopping-cart-product a.btn.remove:hover,
+html body .modal .popover-content .shopping-cart-product a.btn.remove:hover,
+html body .popover.bottom .checkoutReview .shopping-cart-product a.btn.remove:hover,
+html body .modal .checkoutReview .shopping-cart-product a.btn.remove:hover {
+  opacity: 1.0;
+}
+html body .popover.bottom .popover-content .checkout-totals,
+html body .modal .popover-content .checkout-totals,
+html body .popover.bottom .checkoutReview .checkout-totals,
+html body .modal .checkoutReview .checkout-totals {
+  float: right;
+  width: 240px;
+  margin-bottom: 14px;
+  padding-top: 18px;
+}
+html body .popover.bottom .popover-content .checkout-totals div,
+html body .modal .popover-content .checkout-totals div,
+html body .popover.bottom .checkoutReview .checkout-totals div,
+html body .modal .checkoutReview .checkout-totals div {
+  margin-bottom: 3px;
+}
+html body .popover.bottom .popover-content .checkout-totals div:before,
+html body .modal .popover-content .checkout-totals div:before,
+html body .popover.bottom .checkoutReview .checkout-totals div:before,
+html body .modal .checkoutReview .checkout-totals div:before,
+html body .popover.bottom .popover-content .checkout-totals div:after,
+html body .modal .popover-content .checkout-totals div:after,
+html body .popover.bottom .checkoutReview .checkout-totals div:after,
+html body .modal .checkoutReview .checkout-totals div:after {
+  content: " ";
+  display: table;
+}
+html body .popover.bottom .popover-content .checkout-totals div:after,
+html body .modal .popover-content .checkout-totals div:after,
+html body .popover.bottom .checkoutReview .checkout-totals div:after,
+html body .modal .checkoutReview .checkout-totals div:after {
+  clear: both;
+}
+html body .popover.bottom .popover-content .checkout-totals span.total-title,
+html body .modal .popover-content .checkout-totals span.total-title,
+html body .popover.bottom .checkoutReview .checkout-totals span.total-title,
+html body .modal .checkoutReview .checkout-totals span.total-title {
+  float: left;
+}
+html body .popover.bottom .popover-content .checkout-totals span.line-item-cost,
+html body .modal .popover-content .checkout-totals span.line-item-cost,
+html body .popover.bottom .checkoutReview .checkout-totals span.line-item-cost,
+html body .modal .checkoutReview .checkout-totals span.line-item-cost {
+  float: right;
+}
+html body .popover.bottom .popover-content .checkout-totals a.shipping-popover-trigger i,
+html body .modal .popover-content .checkout-totals a.shipping-popover-trigger i,
+html body .popover.bottom .checkoutReview .checkout-totals a.shipping-popover-trigger i,
+html body .modal .checkoutReview .checkout-totals a.shipping-popover-trigger i {
+  font-size: 13px;
+  padding-left: 4px;
+}
+html body .popover.bottom .popover-content hr,
+html body .modal .popover-content hr,
+html body .popover.bottom .checkoutReview hr,
+html body .modal .checkoutReview hr {
+  border-top-color: #EFEFEF;
+  clear: both;
+}
+html body .popover.bottom .popover-content hr:before,
+html body .modal .popover-content hr:before,
+html body .popover.bottom .checkoutReview hr:before,
+html body .modal .checkoutReview hr:before,
+html body .popover.bottom .popover-content hr:after,
+html body .modal .popover-content hr:after,
+html body .popover.bottom .checkoutReview hr:after,
+html body .modal .checkoutReview hr:after {
+  content: " ";
+  display: table;
+}
+html body .popover.bottom .popover-content hr:after,
+html body .modal .popover-content hr:after,
+html body .popover.bottom .checkoutReview hr:after,
+html body .modal .checkoutReview hr:after {
+  clear: both;
+}
+html body .popover.bottom .popover-content .donation-promo-text,
+html body .modal .popover-content .donation-promo-text,
+html body .popover.bottom .checkoutReview .donation-promo-text,
+html body .modal .checkoutReview .donation-promo-text {
+  width: 340px;
+  font-size: 13px;
+  display: block;
+  float: left;
+  margin-top: -2px;
+  margin-bottom: 15px;
+}
+html body .popover.bottom .popover-content .checkout,
+html body .modal .popover-content .checkout,
+html body .popover.bottom .checkoutReview .checkout,
+html body .modal .checkoutReview .checkout {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 auto 22px;
+  color: #FFF;
+  padding: 5px 45px;
+  float: right;
+  cursor: pointer;
+}
+html body .popover.bottom .checkoutReview,
+html body .modal .checkoutReview {
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  
+}
+@media (min-width: 768px) {
+  html body .popover.bottom {
+    min-width: 565px;
+  }
+}
+@media (min-width: 200px) and (max-width: 500px) {
+  html body .popover.bottom .popover-content .shopping-cart-product .product-preview,
+  html body .modal .popover-content .shopping-cart-product .product-preview,
+  html body .popover.bottom .checkoutReview .shopping-cart-product .product-preview,
+  html body .modal .checkoutReview .shopping-cart-product .product-preview {
+    width: 70px;
+  }
+  html body .popover.bottom .popover-content .shopping-cart-product .product-description,
+  html body .modal .popover-content .shopping-cart-product .product-description,
+  html body .popover.bottom .checkoutReview .shopping-cart-product .product-description,
+  html body .modal .checkoutReview .shopping-cart-product .product-description {
+    width: 80px;
+    margin-right: 0;
+  }
+  html body .popover.bottom .popover-content .shopping-cart-product .product-qty,
+  html body .modal .popover-content .shopping-cart-product .product-qty,
+  html body .popover.bottom .checkoutReview .shopping-cart-product .product-qty,
+  html body .modal .checkoutReview .shopping-cart-product .product-qty {
+    margin-left: 2px;
+  }
+  html body .popover.bottom .popover-content .shopping-cart-product a.btn.remove,
+  html body .modal .popover-content .shopping-cart-product a.btn.remove,
+  html body .popover.bottom .checkoutReview .shopping-cart-product a.btn.remove,
+  html body .modal .checkoutReview .shopping-cart-product a.btn.remove {
+    margin-left: 20px;
+  }
+  html body .popover.bottom .popover-content .checkout-totals,
+  html body .modal .popover-content .checkout-totals,
+  html body .popover.bottom .checkoutReview .checkout-totals,
+  html body .modal .checkoutReview .checkout-totals {
+    width: 100%;
+  }
+  html body .popover.bottom .popover-content .donation-promo-text,
+  html body .modal .popover-content .donation-promo-text,
+  html body .popover.bottom .checkoutReview .donation-promo-text,
+  html body .modal .checkoutReview .donation-promo-text {
+    width: 100%;
+  }
+}
